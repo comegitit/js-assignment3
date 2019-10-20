@@ -1,11 +1,9 @@
 window.addEventListener('load', () => {
-  //let lat
   let lat ='instantiation'
-  //let long
   let long = 'instantiation'
-  let temperatureDegree = document.querySelector('.temperature-degree')
-  let temperatureDescription = document.querySelector('.temperature-description')
-  let locationTimezone = document.querySelector('.location-timezone')
+  const temperatureDegree = document.querySelector('.temperature-degree')
+  const temperatureDescription = document.querySelector('.temperature-description')
+  const locationTimezone = document.querySelector('.location-timezone')
 
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(position => {
