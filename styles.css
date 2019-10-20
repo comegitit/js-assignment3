@@ -29,17 +29,17 @@ body{
   flex-direction: column;
 }
 
-.degree-section{
+.temperature-display-section{
   display: flex;
   align-items: center;
   cursor: pointer;
 }
 
-.degree-section span {
+.temperature-display-section span {
   margin: 10px;
   font-size: 30px;
 }
 
-.degree-section h2{
+.temperature-display-section h2{
   font-size: 50px
 }
