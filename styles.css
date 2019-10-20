@@ -10,9 +10,8 @@ body{
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(rgb(48,62,143),rgb(47,150,163)); */
-  /* background: linear-gradient( rgb(2, 27, 121),rgb(5, 117, 230)); */
-  font-family: 'Prata', 'Times New Roman', Times, serif
+  background: linear-gradient(rgb(48,62,143),rgb(47,150,163));
+  font-family: 'Prata', 'Times New Roman', Times, serif;
   letter-spacing: 1px;
   color: white;
 }
