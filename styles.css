@@ -32,7 +32,6 @@ body{
 .temperature-display-section{
   display: flex;
   align-items: center;
-  cursor: pointer;
 }
 
 .temperature-display-section span {
@@ -41,5 +40,13 @@ body{
 }
 
 .temperature-display-section h2{
-  font-size: 50px
+  font-size: 60px
+}
+
+.summary-description{
+  font-size: 20px;
+}
+
+.location-timezone {
+  font-size: 36px;
 }
