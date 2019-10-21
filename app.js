@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
   let lat = 'instantiation'
   let long = 'instantiation'
   const tempInDegrees = document.querySelector('.temp-in-degrees')
-  const SummaryDescription = document.querySelector('.summary-description')
+  const ConditionsDescription = document.querySelector('.conditions-description')
   const locationTimezone = document.querySelector('.location-timezone')
 
   //use built-in javascript functionality to fetch lat & long
@@ -29,7 +29,7 @@ window.addEventListener('load', () => {
         } = data.currently
 
         tempInDegrees.textContent = Math.round(temperature)
-        SummaryDescription.textContent = summary
+        ConditionsDescription.textContent = summary
         locationTimezone.textContent = data.timezone
 
         //Set the Skycon icon
