@@ -50,3 +50,7 @@ body {
 .location-timezone {
   font-size: 36px;
 }
+
+.icon {
+  width: 300px;
+}
